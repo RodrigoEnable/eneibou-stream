@@ -1,16 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
-
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Silkscreen:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Rubik+Vinyl&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Caveat:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Caveat:wght@400..700&family=Silkscreen:wght@400;700&display=swap');
+
+body {
+    background-color: #fefaef;
+}
 
 .open-sans {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
@@ -19,24 +16,12 @@
     font-family: "Bungee Shade", serif;
     font-weight: 400;
     font-style: normal;
-  }
-
-.rubik-vinyl-regular {
-    font-family: "Rubik Vinyl", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.jersey-10-regular {
-    font-family: "Jersey 10", serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .caveat {
     font-family: "Caveat", serif;
     font-optical-sizing: auto;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
