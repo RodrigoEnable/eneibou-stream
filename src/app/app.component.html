@@ -10,6 +10,12 @@
     </div>
   </header>
   <div class="content">
+    <!-- <div class="card-container">
+      <app-card *ngFor="let card of cards" 
+          [title]="card.title"
+          [link]="card.link">
+      </app-card>
+    </div> -->
     <div class="title">
       <div class="category silkscreen-regular">Project Zomboid</div>
       <div class="pin open-sans">
@@ -26,7 +32,7 @@
       <p>Assim que joguei as flores no caixão eu comecei a ouvir batidas... E elas vinham de dentro... do caixão!</p>
       <p>Então comecei a gritar: Abram o caixão! Abram o caixão! Lourdes está viva! Ela está viva! Todos no enterro continuaram parados, sem reação.</p>
       <p>Pulei sobre o caixão e tentei abrir, mas não conseguia. Comecei então a arranhá-lo, até o ponto que as minhas unhas começaram a sangrar. E as batidas cada vez mais altas, cada vez mais altas, até que...</p>
-      <p>Acordei com o coração acelerado, não sei quantas horas dormi depois de ingerir todos aqueles remédios. Foi então que percebi as batidas na janela, insistentes. Pensei, "quem está a bater na janela a essas horas"? Fui até a sala, abri a cortina, e um susto enorme:  Edna, a vizinha, com a cara pálida, olhos arregalados, a bater na janela. Logo pensei, "o cachorro do Bob defecou no quintal dela novamente". Mas depois novo susto: Bob apareceu ao lado dela e começou a bater na janela também, com a mesma cara pálida mas... com uma faca enfiada no peito.</p>
+      <p>Esse foi o sonho que tive. Acordei com o coração acelerado, não sei quantas horas dormi depois de ingerir todos aqueles remédios. Foi então que percebi as batidas na janela, insistentes. Pensei, "quem está a bater na janela a essas horas"? Fui até a sala, abri a cortina, e um susto enorme:  Edna, a vizinha, com a cara pálida, olhos arregalados, a bater na janela. Logo pensei, "o cachorro do Bob defecou no quintal dela novamente". Mas depois novo susto: Bob apareceu ao lado dela e começou a bater na janela também, com a mesma cara pálida mas... com uma faca enfiada no peito.</p>
       <p>Não era Halloween, não entendi nada, porque queriam me assustar? Esbravejei mas não adiantou, eles não saíram da personagem. Enquanto pensava no absurdo daquela situação eles quebraram a janela.  Foi então que ouvi os gemidos. Lembrei dos filmes de zumbis que Joshua costumava assistir e finalmente entendi as personagens.</p>
       <p>Eles pularam a janela... arrastaram o corpo nos cacos de vidro... Só depois de tudo isso entendi que havia algo estranho acontecendo...</p>
       <p>Gritei: Edna! Bob! O que aconteceu com vocês!? Eles apenas gemiam. Levantaram e começaram a caminhar na minha direção.</p>
@@ -73,12 +79,12 @@
     <h1 class="open-sans">Dia 05</h1>
     <div class="diary caveat-brush-regular">
       <p>Acordei ainda com dores no corpo por causa do embate físico com os zumbis. Sentia-me mais resistente, porém já tenho 61, não posso confiar plenamente nas minhas habilidades físicas. Então pensei onde poderia encontrar uma arma de fogo... Meus vizinhos certamente não tinham. Decidi rodar a vizinhança para ver se não estava a deixar escapar alguém que pudesse ter, a memória já não anda lá essas coisas.</p>
-      <p>Foi então que me deparei com a casa abandonada dos Williams. Edna uma vez me pediu para ir lá porque viu jovens entrar na casa, um deles o filho de Bob, cujo nome é Joe. Como me consideravam o "xerife" da vizinhança, sempre me pediam para averiguar situações estranhas. Mas eu recusei porque Edna não gostava de Bob, então parecia usar o filho para retaliar o pai.</p>
+      <p>Foi então que me deparei com a casa abandonada dos Williams. Edna uma vez me pediu para ir lá porque viu jovens entrar na casa, um deles o filho de Bob, cujo nome é Jake. Como me consideravam o "xerife" da vizinhança, sempre me pediam para averiguar situações estranhas. Mas eu recusei porque Edna não gostava de Bob, então parecia usar o filho para retaliar o pai.</p>
       <p>E sim, a casa era ponto de encontro dos jovens, tanto que sempre foi toda pichada. Mas jovens fazem coisas de jovens e eu já estava aposentado, ela que ligasse para a delegacia de Riverside e falasse com Darcy sobre isso.</p>
-      <p>Contudo... Dentre os zumbis que abati não estava Joe... Será que ele está escondido na casa abandonada dos Williams? É um bom local para se esconder porque as janelas são tapadas com tábuas.</p>
+      <p>Contudo... Dentre os zumbis que abati não estava Jake... Será que ele está escondido na casa abandonada dos Williams? É um bom local para se esconder porque as janelas são tapadas com tábuas.</p>
       <p>Antes de averiguar, tive um embate com um zumbi que estava próximo a casa. Era uma pessoa desconhecida.</p>
       <p>Entrei com cuidado na casa, segurando o cano com as duas mãos. O lugar estava imundo, na sala só tinha uma geladeira velha. Aparentemente não tinha ninguém, mas senti um cheiro podre no ar. Cheiro de gente morta.</p>
-      <p>Caminhei com cuidado, e olhei comodo a comodo, no banheiro encontrei Joe morto, aparentemente espancado. E ele estava armado. Já estava morto a pelo menos três dias.</p>
+      <p>Caminhei com cuidado, e olhei comodo a comodo, no banheiro encontrei Jake morto, aparentemente espancado. E ele estava armado. Já estava morto a pelo menos três dias.</p>
       <p>"Lembro de carregá-lo no colo", Lourdes disse com tristeza...</p>
       <p>Onde ele conseguiu essas armas? Em nenhum lugar de Echo Creek ele conseguiria essas armas. De qualquer forma, elas serão muito úteis nas minhas mãos, parece que o destino nos guiou até aqui Lourdes.</p>
     </div>
@@ -363,7 +369,43 @@
     </div>
     <h1 class="open-sans">Dia 01</h1>
     <div class="diary caveat-brush-regular">
-      <p>...</p>
+      <p>Meu pai me ligou cedo e pediu para suspender qualquer atividade e ir para Nova York ao encontro dele. Eu perguntei o porque, ele disse que não podia dizer mas que deveria fazer isso, era uma ordem.</p>
+      <p>Assim que desliguei a chamada, uma nova chamada entrou logo em seguida na delegacia de Rosewood. Era um jovem de Echo Creek muito assustado. Ele disse que viu gente morta em uma casa quando olhou pela janela e que precisava de ajuda.</p>
+      <p>A princípio parecia um trote, o garoto falava enrolado, parecia chapado com alguma droga, mas o desespero dele... Aquilo parecia real.</p>
+      <p>Perguntei o nome dele, disse que chamava-se Jake.</p>
+      <p>Perguntei qual era a casa, ele não soube explicar, disse apenas "ambulância". Depois a ligação caiu.</p>
+      <p>Ambulância? Mas Echo Creek não tem hospital...</p>
+      <p>"Vou atender esse chamado e sigo para Nova York logo em seguida", pensei.</p>
+      <p>Expliquei a ligação para Grace e perguntei se ela tinha alguma pista sobre ambulância em Echo Creek.</p>
+      <p>"Minha mãe é paramédica e as vezes deixa a ambulância estacioanada em frente de casa", disse ela.</p>
+      <p>Trocamos olhares assustados.</p> 
+      <p>Só tínhamos uma viatura disponível no momento e George precisava usá-la para patrulhar Rosewood a noite. Então pedimos a George que nos levasse para Echo Creek e depois de verificar a situação ele poderia retornar para nos buscar.</p>
+      <p>Chegamos no final do dia, a ambulância estava parada na frente de casa, mas a mãe de Grace não estava lá.</p>
+      <p>Grace e eu estávamos tão assustados com a possibilidade de ter ocorrido alguma coisa com a mãe dela que esquecemos nossos coldres na delegacia, nos demos conta disso quando chegamos.</p>
+      <p>Liguei para a delegacia e pedi a Beth orientar George quando chegasse para trazer nossas armas.</p>
+      <p>Sei que está preocupada Grace mas vamos esperar amanhecer para iniciar a busca, disse a ela. Amanhã começamos a investigar e George trará nossos coldres.</p>
+      <p>Dormimos na casa da mãe de Grace. Quando acordei Grace não estava lá.</p>
+      <p>Droga! Está a agir sem mim! Fiquei irritado.</p>
+      <p>Quando olhei pela janela vi um aglomerado de pessoas paradas na rua. Ouvi gritos também, não muito distante.</p>
+      <p>Sai e fui ver o que era.</p>
+      <p>Do gramado da casa de mãe de Grace gritei para as pessoas: "Sou o policial Joe Darcy Coleman, preciso de informações"... Então percebi os gemidos que faziam...</p>
+      <p>Viraram a cabeça na minha direção e começaram a ser mover lentamente. Tinham um aspecto estranho, rostos pálidos, um parecia ter uma ferida na perna, outro no braço.</p>
+      <p>Um deles começou a correr na minha direção com a boca aberta e a gritar como um animal selvagem.</p>
+      <p>Sim, eles queriam me matar.</p>
+      <p>Tive um embate corpo a corpo com eles. Depois de algum tempo consegui matar os quatro.</p>
+      <p>Eu estava completamente aterrorizado. O que foi aquilo? Eram pessoas que não estavam em seu estado normal.</p>
+      <p>Voltei para dentro da casa, bebi uma água e tentei me acalmar.</p>
+      <p>Grace, preciso procurar Grace!</p>
+      <p>Saí de casa cauteloso a procurar Grace. Foi então que a encontrei...</p>
+      <p>Ela e a mãe... Meu Deus... O olhar vazio a caminhar na minha direção.</p>
+      <p>Grace! Acorde Grace! Eu gritei mas não adiantou. Apenas atraiu mais pessoas no mesmo estado que elas.</p>
+      <p>Grace abriu a boca e tive que a conter. Consegui a derrubar e a matei. Depois a mãe. E depois vieram os outros, que matei.</p>
+      <p>Voltei para a casa da mãe de Grace sem fôlego, o embate foi pesado, chorei.</p>
+      <p>O que está acontecendo? Será que meu pai sabia de algo? Será que é por isso que ele ordenou que fosse para Nova York?</p>
+      <p>Eles parecem... Zumbis. Algum tipo de infecção?</p>
+      <p>Milhares de perguntas na minha cabeça. Estava atordoado.</p>
+      <p>Então lembrei quem era. Um policial, filho de Darcy, preciso me acalmar e investigar isso tudo.</p>
+      <p>Vou investigar o corpo de Grace, talvez me dê alguma pista.</p>
     </div>
   </div>
   <router-outlet></router-outlet>

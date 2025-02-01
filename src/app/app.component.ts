@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Eneibou Stream';
+
+  cards = [
+    { title: 'O diário do Sr. Lourdes', link: '' },
+    { title: 'Card 2', link: '' }
+  ];
 }
