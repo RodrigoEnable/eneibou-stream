@@ -477,7 +477,7 @@ export class DiaryService {
           'Pensei, "man, mas esse engomadinho filho do delegado é folgado". Darcy foi não sei pra onde com a primeira viatura, devia cobrar o pai e não atrapalhar o meu trabalho.',
           '"Mas tudo bem, eu levo eles", pensei. E levar eles foi meu maior erro.',
           'Quando os deixei em Echo Creek, enquanto voltava para Rosewood, a viatura começou a cuspir fumaça pelo capô e um cheiro de queimado insuportável tomou conta.',
-          'Saí do carro rapidamente e, quando abri o capo, fogo.',
+          'Saí do carro rapidamente e, quando abri o capô, fogo.',
           'Eu tentei apagar e não consegui, fiquei ali parado vendo a viatura arder.',
           'Eu estava com muita raiva naquele momento. Era noite, teria que voltar todo o caminho a pé até Echo Creek e explicar a eles o que aconteceu.',
           'Foi isso que fiz. Quando cheguei já era de manhã e, assim que cheguei na rua da mãe de Grace, vi os corpos...',
