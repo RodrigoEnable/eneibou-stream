@@ -497,7 +497,7 @@ export class DiaryService {
           'Um deles chegou perigosamente perto de mim, tentei dar uma coronhada mas errei e ele abriu um corte profundo no meu braço, a dor era grande.',
           'Então fuji para dentro de uma casa, arranquei uma cortina da parede, a cortei na força e enrolei no braço para estancar o sangramento.',
           'Droga, será que essa merda pega pelo sangue? Estou apavorado.',
-          'Só espero amanhacer vivo no próximo dia.',
+          'Só espero amanhecer vivo no próximo dia.',
         ]
       },
       {
