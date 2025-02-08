@@ -1,0 +1,16 @@
+<div class="content">
+  <div class="title-wrapper">
+    <h3 class="title bungee-shade-regular">{{ title }}</h3>
+    <button (click)="back()" class="back-button">
+      <i class="ri-arrow-left-circle-fill"></i>
+      {{ 'Voltar' }}
+    </button>
+  </div>
+  <div *ngFor="let entry of entries">
+    <h1 class="open-sans">Dia {{ entry.day }}</h1>
+    <div *ngFor="let paragraph of entry.content" class="diary caveat-brush-regular">
+      <pre *ngIf="entry.isDead">{{ paragraph }}</pre>
+      <p *ngIf="!entry.isDead">{{ paragraph }}</p>
+    </div>
+  </div>
+</div>

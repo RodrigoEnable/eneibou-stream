@@ -1,5 +1,13 @@
-<div class="card">
-  <div class="title">
-    <h3 class="bungee-shade-regular">{{ title }}</h3>
+<div class="card" [routerLink]="link" [ngClass]="isDead ? 'red' : 'green'">
+  <div class="header">
+    <div class="image-wrapper" [class.dead]="isDead">
+      <img class="image" [src]="photo" alt="{{ title }}">
+    </div>
+    <div class="title">
+      <h3 class="bungee-shade-regular">{{ title }}</h3>
+    </div>
   </div>
+  <!-- <div class="content open-sans">
+    <a [routerLink]="link">Acessar</a>
+  </div> -->
 </div>

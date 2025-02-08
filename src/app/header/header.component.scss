@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    flex-direction: column;
+
+    .info {
+        h2 {
+            line-height: 1;
+            margin-bottom: 0;
+            font-size: 2.5rem;
+        }
+
+        a {
+            display: block;
+            width: fit-content;
+            color: #535353;
+            font-size: 2rem;
+
+            @media screen and (max-width: 768px) {
+                font-size: 1.5rem;
+            }
+
+            @media screen and (max-width: 414px) {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .banner {
+        padding-block: 1.5rem;
+
+        img {
+            width: 100%;    
+            height: 100%;
+        }
+    }
+}
