@@ -1,8 +1,16 @@
 <main class="container">
   <app-header></app-header>
   <div *ngIf="showInitialInfo" class="content">
-    <div class="title">
+    <div class="content-wrapper">
       <div class="category silkscreen-regular">Project Zomboid</div>
+      <div class="card-container">
+        <app-card *ngFor="let card of cards" 
+          [title]="card.title"
+          [link]="card.link"
+          [photo]="card.photo"
+          [isDead]="card.isDead">
+        </app-card>
+      </div>
       <div class="pin open-sans">
         <div class="obs">
           <i class="icon ri-attachment-2"></i>
@@ -10,11 +18,14 @@
         </div>
         <p>Após cada transmissão em <a href="https://www.twitch.tv/eneibou/">twitch.tv/eneibou</a> eu revejo o VOD e crio a história baseado no que aconteceu e conforme a quantidade de dias que foram jogados em live.</p>
         <p>A live é posteriormente postada no youtube <a href="https://www.youtube.com/@Eneibou">youtube.com/&#64;Eneibou</a> para termos a história completa.</p>
+        <p>Observação:</p>
+        <p>Existe um evento chamado <b>realidade paralela da Indie Stone</b>. Se o jogo atualizar e gerar um backup automático do save, ocorreu uma "realidade paralela da Indie Stone". Se o personagem morre nesse save, podemos utilizar o backup automático para criar uma "realidade paralela do personagem" a partir daquele ponto.</p>
+        <p>Atualmente temos uma realidade paralela da Indie Stone no save do personagem Sr. Lourdes, porém não foi utilizado esse backup até o momento.</p>
       </div>
       <div class="pin open-sans">
         <div class="obs">
           <i class="icon ri-attachment-2"></i>
-          <p>Orientações do site<p>
+          <p>Sobre o site.<p>
         </div>
         <p>Os diários ficam separados em cartões por personagem e um <b>x</b> na imagem do personagem indica se ele está vivo ou morto.</p>
         <p>Temos um custom sandbox na B42. Chamo esse preset de <b>Apocalypse++</b>. É um sandbox médio/difícil, com multiplicador de zumbis <b>1.6</b> (atualmente na B42 o default é 0.65).</p>
@@ -26,14 +37,6 @@
         <p>Para utilizar o preset adicioná-lo à pasta <b>Sandbox Presets</b> (se a instalação padrão do zomboid não foi alterada, essa pasta encontra-se na partição <b>c:</b>).</p> 
         <p>O caminho seria algo como <b>c:\Users\User\Zomboid\Sandbox Presets</b>.</p>
       </div>
-    </div>
-    <div class="card-container">
-      <app-card *ngFor="let card of cards" 
-        [title]="card.title"
-        [link]="card.link"
-        [photo]="card.photo"
-        [isDead]="card.isDead">
-      </app-card>
     </div>
   </div>
   <router-outlet></router-outlet>

@@ -43,13 +43,20 @@
         .content {
             margin-bottom: 3rem;
 
-            .title {
+            .content-wrapper {
                 .category {
                     width: fit-content;
                     padding-inline: 0.5rem;
                     border: 1px #535353 solid;
                     border-radius: 6px;
                     background-color: #cccccc;
+                }
+
+                .card-container {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(200px, 434px));
+                    gap: 10px;
+                    margin-block: 1.5rem;
                 }
 
                 .pin {
@@ -88,11 +95,4 @@
             }
         }
     }
-
-    .card-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 434px));
-        gap: 10px;
-    }
-    
 }
