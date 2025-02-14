@@ -487,7 +487,7 @@ export class DiaryService {
           'Logo saquei a arma, fiquei completamente transtornado.',
           'Vi uma aglomeração de pessoas não muito distante, corri até eles enquadrando geral, mas...',
           'Quando olhei para os rostos percebi que tinha algo muito estranho acontecendo naquela cidade.',
-          'Mas que porra é essa?! Foi a única coisa que pensei quando eles começaram a se aproximar com a boca aberta, como se quisessem me morder.',
+          'Mas que porra é essa?! Zumbis!? Foi a única coisa que pensei quando eles começaram a se aproximar com a boca aberta, como se quisessem me morder.',
           'Sim, eles queriam me morder! Se não tivesse atirado eles teriam mordido.',
           'Mas atirar foi o meu segundo maior erro.',
           'Logo tinham vários zumbis a me cercar, eu corri para a rua principal e comecei a atirar em todos eles, um a um...',
@@ -502,6 +502,78 @@ export class DiaryService {
       },
       {
         day: '02',
+        content: [
+          'Apesar de toda a dor que sinto e a ferida parecer um pouco infeccionada, não sinto que estou virando um deles, se é que isso possa ser sentido.',
+          'Talvez perda de consciência é um sintoma? Não sei, poderia perder na mesma nesse inferno que estou vivendo.',
+          'Não faço ideia do que está acontecendo. Ouvi rumores de que Darcy foi para Nova York para uma reunião sobre algo grande, será que tem a ver com essa merda toda?',
+          'Não deve ser isso, senão teria levado o filho junto. Não sei se Coleman está vivo...',
+          'Eu não sei o que fazer no momento, estou ilhado em Echo Creek e não faço ideia da dimensão do problema.',
+          'Será que isso já chegou em Rosewood?',
+          'Enquanto não tiver carro, acho que o melhor é juntar comida, nessa casa não tem nenhuma.',
+          'Então saí para recolher comida, apesar da dor no braço, tinha que seguir em frente.',
+          'Em uma casa encontrei um policial zumbificado, não sei de onde ele é, o nome dele é Isiah Gentry.',
+          'Puxei a chave grifo que encontrei e o abati. Sangue para todo lado...',
+          'Descanse em paz irmão.',
+          'Não estão mais vivos Fox, não estão mais vivos... Tenho tentado acreditar nisso, não sei o que são mas não estão mais vivos.',
+          'Ele tinha uma escopeta sem balas nas costas. Coloquei nas minhas costas na esperança de encontrar munição para ela.',
+          'Fui no posto de gasolina e encontrei um carro com chaves, parece que alguém largou o carro ali, não teve tempo de fujir. Coloquei gasolina nele, agora com carro as coisas ficam mais fáceis.',
+          'Também encontrei uma M1911 com balas, usarei quando encontrar um grupo grande deles.',
+          'Meu primeiro impulso foi ganhar a estrada rumo a Rosewood, mas... E se lá estiver tudo tomado também?',
+          'Talvez fosse mais estratégico ficar mais uns dias em Echo Creek onde a população é menor e eu já eliminei alguns deles.',
+          'Além do mais, não estou contaminado aqui... Fui ferido mas não me tornei um deles. E se isso pega no ar? Se foi um sopro que passou por aqui e está a passar noutros lugares?',
+          'Não sei, é melhor ficar por aqui mais um tempo.',
+          'Nos próximos dias vou vasculhar as casas e juntar comida e equipamentos, tenho um mapa da cidade, vou fazer essa merda direito, marcar todos os lugares que passei e o que encontrei.',
+          'Não tenho muita paciência para escrever mas acho importante ter isso escrito, se eu tiver alguma informação importante nos próximos dias, volto a escrever.',
+          'Vou deixar apenas um "estou vivo" registrado nos dias que eu estiver sem saco para escrever.'
+        ]
+      },
+      {
+        day: '03',
+        content: [
+          'Chuva forte o dia todo. Vaculhei as casas debaixo de chuva, não quero perder tempo.',
+          'Abati os zumbis que apareceram com a chave grifo.',
+          'Encontrei um grupo grande de zumbis, então puxei a M1911 e comecei a abatê-los.',
+          'A minha adrenalina estava a mil... Achei que fosse ser muito difícil puxar o gatilho e abater essas pessoas... essas coisas. Mas é isso, são coisas Fox, não são mais seres humanos.',
+          'Não quero pensar muito, faço no automático. Acho que assim posso ser mais eficiente em sobreviver a eles.'
+        ]
+      },
+      {
+        day: '04',
+        content: [
+          'Estou vivo.',
+        ]
+      },
+      {
+        day: '05',
+        content: [
+          'Estou preocupado com luz e água, se essa infecção se espalhou não vai demorar para problemas de abastecimento aparecerem.',
+          'Tenho que pensar num plano, coletar água da chuva e dos rios, instalar geradores mas não sei como funciona, espero encontrar algum livro que explique isso.',
+          'Se não encontrar em Echo Creek, talvez tenha que sair da cidade para procurar essa informação.',
+          'Sei que havia um curso de elétrica no Centro Comunitário de March Ridge, devo encontrar alguma coisa lá, uma viagem arriscada mas importante.',
+          'Será também um bom termômetro para entender a dimensão do problema, se lá também estiver cheio de zumbis...',
+          'Espero que Louisville esteja bem, minha família é de lá, sou nascido em Valley Station.',
+          'Se minha família... Não quero pensar! Eu mato o filho da puta que iniciou tudo isso!'
+        ]
+      },
+      {
+        day: '06',
+        content: [
+          'Esse dia voltei a encontrar um grupo grande de zumbis e usei a arma de fogo, porém não tinha munição suficiente.',
+          'Não consegui abater todos eles mas encontrei mais munição em outra casa. Não sei se posso dizer que é sorte estando nesse inferno, mas vamos dizer que foi um feliz acaso.',
+          'Voltei lá e eliminei todos eles.',
+          'Já perdi as contas de quantos abati nessa cidade, mas estou construindo um ambiente tranquilo para sobreviver, espero eu.',
+          'Talvez Echo Creek seja um bom local para acolher outros sobreviventes, espero não ser o único.',
+          'Também encontrei uma casa barricada, haviam dois corpos no chão e zumbis lá dentro, olhei por uma fresta na janela.',
+          'A minha missão era entrar e vasculhar, então trabalhei para isso.',
+          'Deixei os zumbis que estavam lá dentro bastante agitados para que eles quebrassem as barricadas de uma janela.',
+          'Funcionou.',
+          'Assim que eles pularam pela janela os abati com a pistola.',
+          'Dentro encontrei outra M1911, medicamentos e uma máscara de gás, talves seja útil para evitar o cheiro dos corpos que é insuportável.',
+          'Voltei para casa cansado. Amanhã tem mais.'
+        ]
+      },
+      {
+        day: '07',
         content: [
           'Continua na próxima live...',
         ]
