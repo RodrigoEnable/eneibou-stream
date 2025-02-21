@@ -6,6 +6,7 @@ const routes: Routes = [
   { path: 'diario-sr-lourdes', component: DiaryPageComponent, data: { title: 'O diário do Sr. Lourdes' } },
   { path: 'diario-policial-coleman', component: DiaryPageComponent, data: { title: 'O diário do policial Coleman' } },
   { path: 'diario-policial-fox', component: DiaryPageComponent, data: { title: 'O diário do policial Fox' } },
+  { path: 'diario-eletricista-alonzo', component: DiaryPageComponent, data: { title: 'O diário do eletricista Alonzo' } },
   { path: 'diario-enfermeira-beth', component: DiaryPageComponent, data: { title: 'O diário da enfermeira Beth' } },
   { path: '**', redirectTo: 'eneibou-stream', pathMatch: 'full' }
 ];

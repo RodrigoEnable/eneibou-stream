@@ -575,8 +575,103 @@ export class DiaryService {
       {
         day: '07',
         content: [
-          'Continua na próxima live...',
+          'Passei o dia a varrer a cidade atrás de algo que explicasse como operar um gerador, mas não encontrei. Dorga!',
+          'Vou iniciar amanhã um plano ousado, sair de Echo Creek e ir para March Ridge. No Centro Comunitário devo encontrar alguma informação.',
+          'Que Deus esteja comigo.'
         ]
+      },
+      {
+        day: '07',
+        content: [
+          'Passei o dia a varrer a cidade atrás de algo que explicasse como operar um gerador, mas não encontrei. Droga!',
+          'Vou iniciar amanhã um plano ousado, sair de Echo Creek e ir para March Ridge. No Centro Comunitário devo encontrar alguma informação.',
+          'Que Deus esteja comigo.'
+        ]
+      },
+      {
+        day: '08',
+        content: [
+          'Hoje comecei a preparar a minha viagem para Echo Creek e algo estranho aconteceu.',
+          'Quando estava no posto com o carro abastecendo o tanque, um helicóptero apareceu e começou a sobrevoar sobre mim.',
+          'Acenei para o helicóptero e mostrei meu distintivo, porém nada ocorreu.',
+          'Fiquei com medo e comecei a caminhar dentre as árvores, para que ele perdesse um pouco a visão de mim.',
+          'Era um helicóptero do exército, e ele tocou o foda-se para mim.',
+          'A merda é grande e sinto que estou desamparado. Completamente desamparado.',
+          'Troquei a bateria do carro que estava mal e peguei a estrada.',
+          'Vejamos o que encontro em March Ridge.'
+        ]
+      },
+      {
+        day: '09',
+        content: [
+          'Nas estradas acidentes e zumbis por todos os lados, as vezes sozinhos, as vezes em grupos.',
+          'Acabei por atropelar um servo que estava a correr de um grupo de zumbis, o animal correu para frente do carro e não consegui desviar.',
+          'Por sorte sofri apenas arranhões e o carro não morreu.',
+          'Peguei o animal e coloquei no porta-malas, poderia retirar a pele dele e aproveitar a carne.',
+          'É o fim do mundo que estou vivenciando, com toda a certeza.',
+          'Já na entrada de March Ridge me deparei com um grupo de zumbis.',
+          'Lutei um tempo com eles, abati alguns, foi preciso para entrar na cidade com segurança.'
+        ]
+      },
+      {
+        day: '10',
+        content: [
+          'A cidade estava completamente tomada de zumbis, era quase impossível andar de carro sem atropelar um deles.',
+          'Eu pensei em desistir da ideia mas não vim até aqui pra desistir agora.',
+          'Vou entrar no Centro Comunitário, custe o que custar.',
+          'Então consegui passar ligeiramente desapercebido, porém quando fui abrir a porta do Centro Comunitário, a porta estava fechada.',
+          'Um zumbi se aproximou perigosamente e tive que enfrentá-lo, na primeira batida a barra de metal que estava a utilizar para abatê-los partiu.',
+          'A porra da barra de metal partiu!',
+          'Logo começaram a aparecer zumbis de todos os cantos e deu tudo errado.',
+          'Passei o dia a tentar entrar no Centro Comunitário, eram muitos zumbis, tentei de tudo, até mesmo atirei neles, mas eram muitos.',
+          'Porra! Não consegui entrar no prédio!',
+          'Tive que recuar, voltei para a parte residencial de March Ridge onde tinham menos zumbis e consegui me esconder em uma casa para repor as energias.',
+          'Amanhã tem mais.'
+        ]
+      },
+      {
+        day: '11',
+        content: [
+          'Um dia inteiro abatendo zumbis.',
+          'Como eu odeio essas merdas ambulantes!',
+          'Vou arrebentar todos eles!'
+        ]
+      },
+      {
+        day: '12',
+        content: [
+          'Acordei muito frustrado. Não consigo vasculhar o Centro Comunitário porque o prédio está cheio deles, dentro e fora.',
+          'Mas também acordei decidido a limpar o máximo de zumbis que conseguir para entrar naquele prédio.',
+          'Enquanto lutava um deles dilacerou minha mão esquerda, a dor foi insuportável. Eu desinfectei a ferida, passei uma bandagem e continuei.',
+          'Mesmo com dor eu continuei, mais agressivo do que antes, mais letal do que antes!',
+          'Eu só pensava em limpar todos eles, minha adrenalina estava a mil!',
+          'Mas no final do dia, não consegui grandes avanços. Eles são muitos. Muitos.',
+          'Respirei fundo e decidi recuar.',
+          'Vou para Rosewood, tem a livraria da cidade, talvez encontre algo lá.'
+        ]
+      },
+      {
+        day: '13',
+        content: [
+          'Rosewood é o meu pior pesadelo. Meus amigos, conhecidos, todos viraram essas coisas.',
+          'Será que isso chegou mesmo em Louisville... Não posso acreditar nisso.',
+          'Passei o dia a abater conhecidos para entrar na cidade...',
+          'Não quero mais escrever.'
+        ]
+      },
+      {
+        day: '14',
+        content: [
+          'É... uma mistura de ódio com desesperança... É a primeira vez que sinto isso, desesperança...',
+          'Não quero mais pensar nisso. Não posso. Tenho um longo e triste dia de trabalho hoje.'
+        ]
+      },
+      {
+        day: '15',
+        content: [
+          '[NÃO HÁ MAIS REGISTROS NESTE DIÁRIO]'
+        ],
+        isDead: true
       }
     ],
     'diario-enfermeira-beth': [
@@ -631,6 +726,94 @@ export class DiaryService {
         day: '02',
         content: [
           'Continua na próxima live...',
+        ]
+      },
+    ],
+    'diario-eletricista-alonzo': [
+      {
+        day: '01',
+        content: [
+          'Eu achei estranho quando ouvi o oficial do exército bateu na minha porta.',
+          'Ele disse: "Precisamos que você vá imediatamente para Echo Creek até essa residência - e me deu um endereço."',
+          'Depois disse: Fale com este homem, ele dará as instruções a você, estamos reunindo um grupo de eletricistas para uma missão importante, no momento oportuno saberá o motivo.',
+          'No final colocou a mão no meu ombro e disse: "Contamos com você".',
+          'Fui responder que meu carro estava em uma oficina mas ele logo emendou: "Sabemos que está sem carro, tem um táxi esperando por você lá fora. Apenas pegue o seu material é vá."',
+          'Eu entrei no táxi atordoado. O que está acontecendo? Porque tenho que encontrar um homem do exército para uma missão secreta em Echo Creek? Aquele lugar nem delegacia tem!',
+          'A viagem era longa. Eu cochilei.',
+          'Acordei com uma buzina. Já era noite.',
+          'Perguntei o que estava a ocorrer para o taxista.',
+          'O homem falou um inglês enrolado, parecido quando cheguei aqui: "Uma pessoa parada no meio da estranha, carajo!"',
+          'Sim, quando olhei, havia uma mulher com camisola parada de costas para o carro no meio da rua. Parecia até uma assombração.',
+          'O homem saiu irritado do carro e deu duas cutucadas no ombro da mulher.',
+          'O que se seguiu foi um horror...',
+          'A mulher virou e simplesmente o mordeu...',
+          'Logo depois apareceram mais dois da escuridão e agarraram o taxista que caiu no chão, o homem urrava de desespero enquanto era devorado.',
+          'Eu fiquei parado, atônito.',
+          'Apenas acordei do transe quando ouvi batidas e unhas nos vidros do carro. Uma mulher e um homem, rostos pálidos, olhos vazios, tentativa de quebrar o vidro do carro.',
+          'Pulei para o banco de motorista e liguei o motor.',
+          'Assim que o motor começou a roncar, levantou o taxista bem na frente do carro, ensanguentado, com os olhos vidrados.',
+          'Claramente com os ferimentos não estaria vivo.',
+          'Eu apenas arranquei com o carro e atropelei o taxista e os outros três que o agarraram.',
+          'O som dos ossos partindo foi horrível. Segui estrada sem olhar para trás.',
+          'Eu estava em choque, completamente em choque. O que vi foi algo sobrenatural.',
+          'Cheguei em Echo Creek de manhã e estacionei o táxi na frente da residência que me instruíram.',
+          'Bati na porta da casa. Nada.',
+          'Resolvi pular a janela que estava aberta. Eu estava completamente fora de mim.',
+          'Assim que pulei a janela ouvi gemidos.',
+          'Havia um homem lá dentro... Ele olhou para mim, seu rosto pálido, e começou a avançar na minha direção para me morder.',
+          'Tive um embate com ele, consegui empurrá-lo, ele caiu sobre a mesa de centro da sala e a destruiu.',
+          'Um pedaço do pé da mesa caiu na frente dos meus pés... Agarrei o pedaço de madeira.',
+          'Ele levantou e voltou a caminhar na minha direção. Eu não queria matá-lo, mas... Será que ele já está morto?',
+          'Vou acertar a cabeça dele e ver se consigo fazê-lo perder a consciência.',
+          'Acertei a cabeça dele com uma com força controlada, porém ele logo se recuperou do golpe e abriu a boca para me morder.',
+          'Não teve jeito, desferi mais golpes com força, até que ouvi o crânio partir...',
+          'Ele caiu, inerte.',
+          'Fiquei duas horas sentado, em choque, com aquele homem no chão e a poça de sangue que se formou em volta da cabeça dele.',
+          'Infectados por algo? São... zumbis?',
+          'Peguei a carteira dele e olhei a identidade, não é o homem que vim procurar...',
+          'Temos pontas soltas, fios desencampados. Não faço ideia do que está acontecendo mas certamente o exército sabe.',
+          'Pronto, está registrado o que aconteceu comigo hoje, vou fazer esse diário para que sirva de prova de que o exército tem relação com isso.'
+        ]
+      },
+      {
+        day: '02',
+        content: [
+          'Aparentemente a cidade toda está tomada por infectados.',
+          'E são muitos.',
+          'Enfrentei alguns deles... Foi terrível, não quero entrar em detalhes, estou emocionamente muito mal.',
+          'Fui até o posto abastecer o tanque para ir embora mas... Não sei se deveria sair de Echo Creek de imediato. E se isso estiver a se espalhar por todos os lugares?',
+          'Acho que preciso me preparar. Tempos difíceis virão com toda certeza.',
+          'Vou usar o que me fez chegar até aqui, a cabeça e alguma coragem.',
+          'Vou pensar, estudar, aprender tudo que puder aprender. E buscar minha filha em Louisville, preciso proteger minha filha.',
+          'Louisville é uma cidade grande, alguma proteção contra isso deve ter sido levantada lá.',
+          'No segundo andar do posto tem uma casa, vou ficar por aqui por enquanto e pensar num plano.',
+          'Não será fácil.'
+        ]
+      },
+      {
+        day: '03',
+        content: [
+          'Ainda ouço o som dos ossos a quebrar na minha cabeça...',
+          'Ouvi no rádio do posto rumores estranhos. Dizem que é uma infecção mesmo, estão a dizer para ficar longe das pessoas infectadas.',
+          'Mas, é muito pior que isso... As pessoas infectadas querem nos matar.',
+          'Acho que as informações ainda estão truncadas.'
+        ]
+      },
+      {
+        day: '04',
+        content: [
+          'Tenho enfrentado eles, mas tem sido difícil pra mim.',
+          'Reuni comida, materiais e livros hoje.',
+          'Continuo no posto.'
+        ]
+      },
+      {
+        day: '05',
+        content: [
+          'Fiz manutenção no táxi, troquei os pneus.',
+          'Trabalhei numa oficina um tempo atrás, sei alguma coisa.',
+          'O motor não parece estar muito bom, mas não sei consertar, vou estudar para aprender isso.',
+          'Preciso aprender a fazer tudo.'
         ]
       }
     ]
