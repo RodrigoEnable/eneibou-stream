@@ -735,7 +735,7 @@ export class DiaryService {
         content: [
           'Eu achei estranho quando ouvi o oficial do exército bateu na minha porta.',
           'Ele disse: "Precisamos que você vá imediatamente para Echo Creek até essa residência - e me deu um endereço."',
-          'Depois disse: Fale com este homem, ele dará as instruções a você, estamos reunindo um grupo de eletricistas para uma missão importante, no momento oportuno saberá o motivo.',
+          'Depois disse: "Fale com este homem, ele dará as instruções a você, estamos reunindo um grupo de eletricistas para uma missão importante, no momento oportuno saberá o motivo."',
           'No final colocou a mão no meu ombro e disse: "Contamos com você".',
           'Fui responder que meu carro estava em uma oficina mas ele logo emendou: "Sabemos que está sem carro, tem um táxi esperando por você lá fora. Apenas pegue o seu material é vá."',
           'Eu entrei no táxi atordoado. O que está acontecendo? Porque tenho que encontrar um homem do exército para uma missão secreta em Echo Creek? Aquele lugar nem delegacia tem!',
