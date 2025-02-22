@@ -733,36 +733,38 @@ export class DiaryService {
       {
         day: '01',
         content: [
-          'Eu achei estranho quando ouvi o oficial do exército bateu na minha porta.',
+          'Eu achei estranho quando um oficial do exército bateu na minha porta.',
           'Ele disse: "Precisamos que você vá imediatamente para Echo Creek até essa residência - e me deu um endereço."',
-          'Depois disse: "Fale com este homem, ele dará as instruções a você, estamos reunindo um grupo de eletricistas para uma missão importante, no momento oportuno saberá o motivo."',
+          'Depois disse: "Fale com este homem, ele dará as instruções a você, estamos reunindo um grupo de eletricistas, no momento oportuno saberá o motivo."',
           'No final colocou a mão no meu ombro e disse: "Contamos com você".',
-          'Fui responder que meu carro estava em uma oficina mas ele logo emendou: "Sabemos que está sem carro, tem um táxi esperando por você lá fora. Apenas pegue o seu material é vá."',
+          'Fui responder que vendi meu carro recentemente mas ele logo emendou: "Sabemos que está sem carro, tem um táxi esperando por você lá fora. Apenas pegue o seu material é vá."',
           'Eu entrei no táxi atordoado. O que está acontecendo? Porque tenho que encontrar um homem do exército para uma missão secreta em Echo Creek? Aquele lugar nem delegacia tem!',
           'A viagem era longa. Eu cochilei.',
           'Acordei com uma buzina. Já era noite.',
           'Perguntei o que estava a ocorrer para o taxista.',
           'O homem falou um inglês enrolado, parecido quando cheguei aqui: "Uma pessoa parada no meio da estrada, carajo!"',
-          'Sim, quando olhei, havia uma mulher com camisola parada de costas para o carro no meio da rua. Parecia uma assombração.',
+          'Sim, quando olhei, havia uma mulher com camisola parada de costas para o carro no meio da rua. Parecia uma assombração sob a luz dos faróis do carro.',
           'O homem saiu irritado do carro e deu duas cutucadas no ombro da mulher.',
           'O que se seguiu foi um horror...',
           'A mulher virou e simplesmente o mordeu.',
-          'Logo depois apareceram mais dois da escuridão e agarraram o taxista que caiu no chão, o homem urrava de desespero enquanto era devorado.',
-          'Eu fiquei parado, atônito.',
-          'Apenas acordei do transe quando ouvi batidas e unhas nos vidros do carro. Uma mulher e um homem, rostos pálidos, olhos vazios, tentativa de quebrar o vidro do carro.',
+          'Logo depois apareceram mais dois da escuridão e agarraram o taxista que caiu no chão, o homem urrava de dor e desespero enquanto era devorado.',
+          'Eu fiquei parado, atônito, a assitir aquilo.',
+          'Apenas acordei do transe quando ouvi batidas e unhas nos vidros do carro. Uma mulher e um homem, rostos pálidos, olhos vazios, tentavam quebrar o vidro do carro.',
           'Pulei para o banco de motorista e liguei o motor.',
           'Assim que o motor começou a roncar, levantou o taxista bem na frente do carro, ensanguentado, com os olhos vidrados.',
-          'Claramente com os ferimentos não estaria vivo.',
+          'Com todos aqueles ferimentos, como ele está vivo? Ele não está vivo...',
           'Eu apenas arranquei com o carro e atropelei o taxista e os outros três que o agarraram.',
           'O som dos ossos partindo foi horrível. Segui estrada sem olhar para trás.',
           'Eu estava em choque, completamente em choque. O que vi foi algo sobrenatural.',
-          'Cheguei em Echo Creek de manhã e estacionei o táxi na frente da residência que me instruíram.',
+          'Cheguei em Echo Creek de manhã e estava um caos.',
+          'Haviam pessoas nas ruas e nos jardins das casas no mesmo estado. Alguns perceberam a minha presença, por sorte tenho o táxi.', 
+          'Estacionei o táxi na frente da residência que me instruíram.',
           'Bati na porta da casa. Nada.',
           'Resolvi pular a janela que estava aberta. Eu estava completamente fora de mim.',
           'Assim que pulei a janela ouvi gemidos.',
           'Havia um homem lá dentro... Ele olhou para mim, seu rosto pálido, e começou a avançar na minha direção para me morder.',
           'Tive um embate com ele, consegui empurrá-lo, ele caiu sobre a mesa de centro da sala e a destruiu.',
-          'Um pedaço do pé da mesa caiu na frente dos meus pés... Agarrei o pedaço de madeira.',
+          'Um pedaço do pé da mesa caiu rolou dos meus pés... Agarrei o pedaço de madeira.',
           'Ele levantou e voltou a caminhar na minha direção. Eu não queria matá-lo, mas... Será que ele já está morto?',
           'Vou acertar a cabeça dele e ver se consigo fazê-lo perder a consciência.',
           'Acertei a cabeça dele com uma com força controlada, porém ele logo se recuperou do golpe e abriu a boca para me morder.',
@@ -787,7 +789,7 @@ export class DiaryService {
           'Vou pensar, estudar, aprender tudo que puder aprender. E buscar minha filha em Louisville, preciso proteger minha filha.',
           'Louisville é uma cidade grande, alguma proteção contra isso deve ter sido levantada lá.',
           'No segundo andar do posto tem uma casa, vou ficar por aqui por enquanto e pensar num plano.',
-          'Não será fácil.'
+          'Não será fácil. Espero acordar vivo amanhã.'
         ]
       },
       {
@@ -804,7 +806,13 @@ export class DiaryService {
         content: [
           'Tenho enfrentado eles, mas tem sido difícil pra mim.',
           'Reuni comida, materiais e livros hoje.',
-          'Continuo no posto.'
+          'Encontrei também um revolver e uma pistola... Acho que vou ter que aprender a usar isso.',
+          'Continuo no posto.',
+          'No rádio mais relatos de acontecimentos estranhos. Como ninguém percebeu que Echo Creek está um caos?',
+          'Isso é algo muito sério e não quero passar a minha vida fujindo deles.',
+          'Os ataques na cabeça são mais efetivos mas... é simplesmente terrível fazer isso. Eu não vou aguentar isso por muito tempo.',
+          'O melhor é ir para um lugar afastado, um lugar que eles não possam chegar, ou que pelo menos cheguem poucos.',
+          'Eu sei me virar, eu vou conseguir. Preciso ter um refúgio e buscar a minha filha.'
         ]
       },
       {
@@ -813,7 +821,7 @@ export class DiaryService {
           'Fiz manutenção no táxi, troquei os pneus.',
           'Trabalhei numa oficina um tempo atrás, sei alguma coisa.',
           'O motor não parece estar muito bom, mas não sei consertar, vou estudar para aprender isso.',
-          'Preciso aprender a fazer tudo.'
+          'Preciso aprender tudo o que puder aprender para sobreviver nesse inferno.',
         ]
       }
     ]
