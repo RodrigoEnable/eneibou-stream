@@ -854,13 +854,14 @@ export class DiaryService {
       {
         day: '09',
         content: [
-          'Percebi que o abastecimento de água foi cortado quando não saiu água da torneira.',
-          'Será que foi por ordem do exército? O inferno chegou até a empresa de abastecimento?',
+          'Percebi que o abastecimento de água foi cortado.',
+          'Será que foi por ordem do exército? Ou esse inferno chegou até a empresa de abastecimento, além das fronteiras de Echo Creek?',
           'Hoje foi mais um dia vasculhando casas e abatendo zumbis.',
           'Eles são muitos, sinceramente, acho que não vou sobreviver por muito tempo. As vezes tenho vontade de desistir mas penso na minha filha.',
           'Tenho que usar a inteligência já que não posso confiar na força, essa é a única chance que tenho de sobreviver.',
           'Principalmente agora sem água, preciso encontrar um local em que tenha água em abundância, talvez uma cabana na floresta a beira de um lago.',
           'Os carros em bom estado que encontrar vou fazer ligação direta e deixá-los prontos, acho que o motor do táxi não vai durar muito tempo.',
+          'Inteligência.',
           'Preciso de um carro para achar um local seguro.'
         ]
       },
@@ -881,8 +882,6 @@ export class DiaryService {
       {
         day: '12',
         content: [
-          'Acordei de um pesadelo em que me afogava em sangue.',
-          'Ontem abati muitos deles, minha noite de sono foi banhada de sangue.',
           'Hoje continuei a vasculhar as casas, encontrei uma caixa inteira de munição de escopeta, fiquei motivado a tentar abatê-los com armas de fogo.',
           'Nunca atirei na minha vida.',
           'Eu encontrei armas, uma escopeta inclusive, mas comecei por uma pistola... M19.',
@@ -891,7 +890,7 @@ export class DiaryService {
           'Com armas de fogo é menos traumático... Mas as balas são finitas.',
           'De qualquer forma não consigo me acostumar com isso, ou ficarei completamente insensível e desumano ou ficarei louco.',
           'Foi um dia extremamente cansativo. Preciso dormir e esquecer tudo o que aconteceu hoje, tirar essas imagens da minha cabeça, miolos, olhos, sangue...',
-          'Ainda estou vivo e isso é um milagre.'
+          'Amanhã é outro dia.'
         ]
       },
       {
