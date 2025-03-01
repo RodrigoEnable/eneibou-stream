@@ -823,7 +823,83 @@ export class DiaryService {
           'O motor não parece estar muito bom, mas não sei consertar, vou estudar para aprender isso.',
           'Preciso aprender tudo o que puder aprender para sobreviver nesse inferno.',
         ]
-      }
+      },
+      {
+        day: '06',
+        content: [
+          'Continuo a saquear as casas e reunir tudo que acho útil.'
+        ]
+      },
+      {
+        day: '07',
+        content: [
+          'Comecei o dia vasculhando as casas, até agora não encontrei outro sobrevivente.',
+          'Está ficando insuportável ficar na casa onde estou, os corpos dos zumbis que abati começaram a feder muito, precisava me livrar deles.',
+          'Comecei a arrastá-los e a jogá-los pela janela. Porém foi um trabalho com várias pausas.',
+          'Tenho um problema de saúde que me faz perder o folêgo rapidamente. Só o peso do primeiro corpo que joguei pela janela me cansou muito.',
+          'Fiquei o restante do dia a jogar os corpos pela janela.'
+        ]
+      },
+      {
+        day: '08',
+        content: [
+          'Um helicóptero do exército apareceu.',
+          'Eu acenei desesperadamente mas nada aconteceu. Ele apenas passou algum tempo a sobrevoar, claramente sabia que eu estava ali, mas nada fez e foi embora.',
+          'Aquilo foi um grande baque pra mim. Porque o exército não quis me resgatar? Eles sabiam que eu não era um zumbi.',
+          'Echo Creek deve ser uma área de quarentena e eles não tem autorização para descer... Essa é a única conclusão que cheguei.',
+          'Mas abandonar um civil a própria sorte? E foi o exército que me enviou para esse inferno sem escolha!',
+          'Que esperança eu posso ter?'
+        ]
+      },
+      {
+        day: '09',
+        content: [
+          'Percebi que o abastecimento de água foi cortado quando não saiu água da torneira.',
+          'Será que foi por ordem do exército? O inferno chegou até a empresa de abastecimento?',
+          'Hoje foi mais um dia vasculhando casas e abatendo zumbis.',
+          'Eles são muitos, sinceramente, acho que não vou sobreviver por muito tempo. As vezes tenho vontade de desistir mas penso na minha filha.',
+          'Tenho que usar a inteligência já que não posso confiar na força, essa é a única chance que tenho de sobreviver.',
+          'Principalmente agora sem água, preciso encontrar um local em que tenha água em abundância, talvez uma cabana na floresta a beira de um lago.',
+          'Os carros em bom estado que encontrar vou fazer ligação direta e deixá-los prontos, acho que o motor do táxi não vai durar muito tempo.',
+          'Preciso de um carro para achar um local seguro.'
+        ]
+      },
+      {
+        day: '10',
+        content: [
+          'Um dia de cada vez.'
+        ]
+      },
+      {
+        day: '11',
+        content: [
+          'Acordei de um pesadelo em que me afogava em sangue.',
+          'Ontem abati muitos deles, sangue para todo lado.',
+          'Não consigo me acostumar com isso mas também não posso desistir.'
+        ]
+      },
+      {
+        day: '12',
+        content: [
+          'Acordei de um pesadelo em que me afogava em sangue.',
+          'Ontem abati muitos deles, minha noite de sono foi banhada de sangue.',
+          'Hoje continuei a vasculhar as casas, encontrei uma caixa inteira de munição de escopeta, fiquei motivado a tentar abatê-los com armas de fogo.',
+          'Nunca atirei na minha vida.',
+          'Eu encontrei armas, uma escopeta inclusive, mas comecei por uma pistola... M19.',
+          'Atirei no primeiro zumbi que vi... Consegui acertá-lo. Talvez não seja uma má ideia usar arma de fogo contra eles, eles são lentos, não é tão difícil acertá-los.',
+          'Eu abati vários zumbis com a pistola, mas minha pontaria não é muito boa. Se tivesse uma pontaria muito precisa, talvez conseguisse deitá-los com apenas um tiro na cabeça.',
+          'Com armas de fogo é menos traumático... Mas as balas são finitas.',
+          'De qualquer forma não consigo me acostumar com isso, ou ficarei completamente insensível e desumano ou ficarei louco.',
+          'Foi um dia extremamente cansativo. Preciso dormir e esquecer tudo o que aconteceu hoje, tirar essas imagens da minha cabeça, miolos, olhos, sangue...',
+          'Ainda estou vivo e isso é um milagre.'
+        ]
+      },
+      {
+        day: '13',
+        content: [
+          'Continua na próxima live...',
+        ]
+      },
     ]
   };
 
