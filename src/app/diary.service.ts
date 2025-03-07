@@ -725,6 +725,89 @@ export class DiaryService {
       {
         day: '02',
         content: [
+          'Um plano. Tenho um carro com pouca gasolina mas vou precisar dele para procurar Greta.',
+          'Ela costuma ir a Igreja, talvez sejam um bom lugar para procurar por ela.',
+          'Vou também vasculhar as casas, preciso reunir comida, ferramentas e equipamentos úteis.',
+          'Eu não sei o que eles são, mas certamente não estão vivos.',
+          'Isso não fere o meu juramento. Eu vou abatê-los.',
+          'É um dia chuvoso mas isso não vai impedir de eu avançar.',
+          'Não a encontrei na Igreja e, além disso, tive que dar decanso ao padre.',
+          'Acertar a cabeça deles é mais eficiente.',
+          'Ele diria que os fins dos tempos chegou, o apocalipse.',
+          'Mas tenho absoluta certeza que esse apocalipse foi criado por nós mesmos.'
+        ]
+      },
+      {
+        day: '03',
+        content: [
+          'Hoje passei o dia a recolher alimentos frescos de uma quitanda bem na entrada da cidade, só que a quitanda estava cercada deles.',
+          'Foi um dia praticamente tentando afastá-los da quitanda, acabei por danificar um pouco a lataria do carro nesse processo.',
+          'Consegui pegar quase todos os alimentos.',
+          'Estou temporariamente em uma casa mais afastada, que não está cercada por eles, estou a armazenar comida e tudo que acredito ser útil nessa casa.',
+          'Ouvi no rádio sobre envolvimento do exército, parece que não está a acontecer só em Echo Creek.',
+          'Não encontrei Greta.'
+        ]
+      },
+      {
+        day: '04',
+        content: [
+          'Sinto que preciso ser rápida para sair dessa cidade em breve.',
+          'Minhas esperanças de encontrar Greta viva aumentam cada vez que encontro um deles e não é ela... Acho que ela deixou a cidade cedo.',
+          'Hoje foi um dia muito cansativo. Abati muitos deles... Por mais que seja brutal, nada disso me impressiona.',
+          'O que me impressiona é o quanto os poderosos conseguem fuder com todos.',
+          'Isso não é algo natural, pode ser que o exército tenha desenvolvido isso em laboratório e saiu do controle deles.',
+          'Se encontrar alguém do exército vivo pode ter certeza que vou matar.',
+          'Vou dormir, estou exausta, talvez durma o dia todo se não acordar com mais um pesadelo no meio da noite.'
+        ]
+      },
+      {
+        day: '05',
+        content: [
+          'Dormi praticamente o dia todo.',
+          'Queria ter acordado e ver que tudo não passou de um pesadelo...',
+          'Mas a realidade é dura.',
+          'A única coisa que fiz hoje foi voltar a Igreja, encontrei uma chave que parecia ser de um furgão.',
+          'Quando estive na Igreja vi que havia um furgão estacionado.',
+          'E realmente a chave era do furgão. Um furgão em excelente estado. Um convite para deixar a cidade.',
+          'Mas ainda tenho dúvidas se devo deixar a cidade agora. Preciso pesar prós e contras.'
+        ]
+      },
+      {
+        day: '06',
+        content: [
+          'Não tenho muito a relatar hoje.',
+          'Hoje voltei a usar a pistola e o revolver para abatê-los.',
+          'Minha pontaria tem melhorado mas não tenho mais munição.',
+          'Queria achar munição para as armas, é sempre mais complicado no embate corpo a corpo com eles.'
+        ]
+      },
+      {
+        day: '07',
+        content: [
+          'Hoje um helicóptero do exército me seguiu enquanto eu abatia zumbis.',
+          'Eles não fizeram nada. Absolutamente nada.',
+          'Simplesmente ficaram ali a ver a minha luta por sobreviver.',
+          'Eles realmente decidiram entregar os civis a própria sorte.',
+          'Por um momento até pensei que fosse ser alvejada por eles mas nada aconteceu.',
+          'Acho que se tivesse munição teria disparado contra o helicóptero, como não tinha apenas mostrei o dedo do meio para eles.',
+          'Certamente foram eles que afundaram Echo Creek nesse caos.',
+          'Mais para o final do dia transferi o combustível do carro para o furgão.',
+          'Acho que vou ter que sair da cidade para conseguir combustível.'
+        ]
+      },
+      {
+        day: '08',
+        content: [
+          'O dia hoje foi basicamente reunir galões de gasolina do posto e abater zumbis.',
+          'Agora o furgão está cheio de galões de gasolina, o próximo passo é encontrar o posto de galosina mais próximo.',
+          '"E que tenha gasolina".',
+          'Estou preocupada com a energia elétrica, acho que preciso encontrar um gerador... Mas não sei operar e conectar um.',
+          'Preciso aprender isso.'
+        ]
+      },
+      {
+        day: '09',
+        content: [
           'Continua na próxima live...',
         ]
       },
@@ -896,9 +979,47 @@ export class DiaryService {
       {
         day: '13',
         content: [
-          'Continua na próxima live...',
+          'Hoje continuei a vasculhar as casas e abater zumbis, foi mais um dia cansativo.',
+          'Mais um dia vivo.'
         ]
       },
+      {
+        day: '14',
+        content: [
+          'Hoje foi mais do mesmo, continuei a vasculhar as casas e abater zumbis, foi mais um dia cansativo.',
+          'São muitos zumbis, já perdi a conta de quantos abati.',
+          'Mais um dia vivo... A que custo?'
+        ]
+      },
+      {
+        day: '15',
+        content: [
+          'Hoje terminei o dia completamente sem forças.',
+          'Destruído em todos os sentidos.',
+          'Não sei quanto tempo mais vou conseguir suportar esse inferno.',
+          'Queria que tudo isso não passasse de um pesadelo.'
+        ]
+      },
+      {
+        day: '16',
+        content: [
+          'A energia acabou.',
+          'Já tenho um gerador que encontrei no parque da cidade, mas preciso de outro, porque preciso de um gerador para casa e outro para o posto, para a bomba de gasolina.',
+          'Estou desesperado, tem comida fresca por toda a cidade e não queria perder esses alimentos, preciso encontrar esse gerador o quanto antes.',
+          'Passei o dia atrás de um gerador e nada.',
+          'Tive que executar um plano emergencial, retirei o gerador que tenho da bomba de gasolina e coloquei em uma casa. Agora preciso recolher todo alimento.',
+          'Infelizmente no meio desse processo o motor do táxi morreu, por sorte havia outro veículo disponível, um que consegui fazer ligação direta dias atrás.',
+          'A noite caiu.',
+          'Preciso seguir noite a dentro recolhendo os mantimentos. Sinto-me cansado, é um risco a correr, mas preciso seguir em frente.'
+        ]
+      },
+      {
+        day: '17',
+        content: [
+          '[NÃO HÁ MAIS REGISTROS NESTE DIÁRIO]'
+        ],
+        isDead: true
+      }
     ]
   };
 

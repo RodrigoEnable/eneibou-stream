@@ -16,7 +16,7 @@ export class AppComponent {
     { title: 'O diário do policial Coleman', link: 'diario-policial-coleman', photo: 'assets/img/coleman.jpg', isDead: true },
     { title: 'O diário do policial Fox', link: 'diario-policial-fox', photo: 'assets/img/george.jpg', isDead: true },
     { title: 'O diário da enfermeira Beth', link: 'diario-enfermeira-beth', photo: 'assets/img/beth.jpg', isDead: false },
-    { title: 'O diário do eletricista Alonzo', link: 'diario-eletricista-alonzo', photo: 'assets/img/alonzo.jpg', isDead: false }
+    { title: 'O diário do eletricista Alonzo', link: 'diario-eletricista-alonzo', photo: 'assets/img/alonzo.jpg', isDead: true }
   ];
 
   constructor(private router: Router) {
